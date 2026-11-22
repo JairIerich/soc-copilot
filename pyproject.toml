@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "soc-copilot"
+version = "0.1.0"
+description = "Assistente RAG local para triagem de logs de segurança"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = "MIT"
+dependencies = [
+  "chromadb==1.5.9",
+  "numpy==2.2.6",
+  "msvc-runtime==14.51.36231; sys_platform == 'win32'",
+  "sentence-transformers>=5.0,<6",
+  "httpx>=0.28,<1",
+  "pydantic>=2.10,<3",
+  "pydantic-settings>=2.7,<3",
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "PyYAML>=6.0,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1", "mypy>=1.15,<2", "types-PyYAML>=6"]
+
+[project.scripts]
+soc-copilot = "soc_copilot.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/soc_copilot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: requer modelo de embeddings no cache local"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+ignore_missing_imports = true
+
+[tool.uv]
+environments = ["sys_platform == 'win32'"]
+
