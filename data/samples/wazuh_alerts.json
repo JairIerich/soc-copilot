@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "LAB-SSH-001",
+    "timestamp": "2026-11-01T00:00:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.1. Cenário sintético LAB-SSH-001.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.1"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-002",
+    "timestamp": "2026-11-01T00:15:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.2. Cenário sintético LAB-SSH-002.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.2"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-003",
+    "timestamp": "2026-11-01T00:30:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.3. Cenário sintético LAB-SSH-003.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.3"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-004",
+    "timestamp": "2026-11-01T00:45:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.4. Cenário sintético LAB-SSH-004.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.4"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-005",
+    "timestamp": "2026-11-01T01:00:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.5. Cenário sintético LAB-SSH-005.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.5"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-006",
+    "timestamp": "2026-11-01T01:15:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.6. Cenário sintético LAB-SSH-006.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.6"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-007",
+    "timestamp": "2026-11-01T01:30:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.7. Cenário sintético LAB-SSH-007.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.7"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-008",
+    "timestamp": "2026-11-01T01:45:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.8. Cenário sintético LAB-SSH-008.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.8"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-009",
+    "timestamp": "2026-11-01T02:00:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.9. Cenário sintético LAB-SSH-009.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.9"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-010",
+    "timestamp": "2026-11-01T02:15:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.10. Cenário sintético LAB-SSH-010.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.10"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-011",
+    "timestamp": "2026-11-01T02:30:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.11. Cenário sintético LAB-SSH-011.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.11"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-012",
+    "timestamp": "2026-11-01T02:45:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.12. Cenário sintético LAB-SSH-012.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.12"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-013",
+    "timestamp": "2026-11-01T03:00:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.13. Cenário sintético LAB-SSH-013.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.13"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-014",
+    "timestamp": "2026-11-01T03:15:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.14. Cenário sintético LAB-SSH-014.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.14"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-015",
+    "timestamp": "2026-11-01T03:30:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.15. Cenário sintético LAB-SSH-015.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.15"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-016",
+    "timestamp": "2026-11-01T03:45:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.16. Cenário sintético LAB-SSH-016.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.16"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-017",
+    "timestamp": "2026-11-01T04:00:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.17. Cenário sintético LAB-SSH-017.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.17"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-018",
+    "timestamp": "2026-11-01T04:15:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.18. Cenário sintético LAB-SSH-018.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.18"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-019",
+    "timestamp": "2026-11-01T04:30:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.19. Cenário sintético LAB-SSH-019.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.19"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SSH-020",
+    "timestamp": "2026-11-01T04:45:00Z",
+    "rule": {
+      "id": "100001",
+      "level": 5,
+      "description": "Falha de autenticação SSH para usuário admin; acesso negado. Origem 192.0.2.20. Cenário sintético LAB-SSH-020.",
+      "groups": [
+        "lab",
+        "ssh"
+      ]
+    },
+    "agent": {
+      "id": "1",
+      "name": "lab-host-01"
+    },
+    "data": {
+      "srcip": "192.0.2.20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-001",
+    "timestamp": "2026-11-01T05:00:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.21. Cenário sintético LAB-SUDO-001.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.21"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-002",
+    "timestamp": "2026-11-01T05:15:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.22. Cenário sintético LAB-SUDO-002.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.22"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-003",
+    "timestamp": "2026-11-01T05:30:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.23. Cenário sintético LAB-SUDO-003.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.23"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-004",
+    "timestamp": "2026-11-01T05:45:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.24. Cenário sintético LAB-SUDO-004.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.24"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-005",
+    "timestamp": "2026-11-01T06:00:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.25. Cenário sintético LAB-SUDO-005.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.25"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-006",
+    "timestamp": "2026-11-01T06:15:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.26. Cenário sintético LAB-SUDO-006.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.26"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-007",
+    "timestamp": "2026-11-01T06:30:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.27. Cenário sintético LAB-SUDO-007.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.27"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-008",
+    "timestamp": "2026-11-01T06:45:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.28. Cenário sintético LAB-SUDO-008.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.28"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-009",
+    "timestamp": "2026-11-01T07:00:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.29. Cenário sintético LAB-SUDO-009.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.29"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-010",
+    "timestamp": "2026-11-01T07:15:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.30. Cenário sintético LAB-SUDO-010.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.30"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-011",
+    "timestamp": "2026-11-01T07:30:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.31. Cenário sintético LAB-SUDO-011.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.31"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-012",
+    "timestamp": "2026-11-01T07:45:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.32. Cenário sintético LAB-SUDO-012.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.32"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-013",
+    "timestamp": "2026-11-01T08:00:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.33. Cenário sintético LAB-SUDO-013.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.33"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-014",
+    "timestamp": "2026-11-01T08:15:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.34. Cenário sintético LAB-SUDO-014.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.34"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-015",
+    "timestamp": "2026-11-01T08:30:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.35. Cenário sintético LAB-SUDO-015.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.35"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-016",
+    "timestamp": "2026-11-01T08:45:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.36. Cenário sintético LAB-SUDO-016.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.36"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-017",
+    "timestamp": "2026-11-01T09:00:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.37. Cenário sintético LAB-SUDO-017.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.37"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-018",
+    "timestamp": "2026-11-01T09:15:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.38. Cenário sintético LAB-SUDO-018.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.38"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-019",
+    "timestamp": "2026-11-01T09:30:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.39. Cenário sintético LAB-SUDO-019.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.39"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SUDO-020",
+    "timestamp": "2026-11-01T09:45:00Z",
+    "rule": {
+      "id": "100002",
+      "level": 8,
+      "description": "Escalação de privilégio via sudo pelo usuário operador; ação permitida. Origem 192.0.2.40. Cenário sintético LAB-SUDO-020.",
+      "groups": [
+        "lab",
+        "sudo"
+      ]
+    },
+    "agent": {
+      "id": "2",
+      "name": "lab-host-02"
+    },
+    "data": {
+      "srcip": "192.0.2.40"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-001",
+    "timestamp": "2026-11-01T10:00:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.41. Cenário sintético LAB-FIM-001.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.41"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-002",
+    "timestamp": "2026-11-01T10:15:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.42. Cenário sintético LAB-FIM-002.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.42"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-003",
+    "timestamp": "2026-11-01T10:30:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.43. Cenário sintético LAB-FIM-003.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.43"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-004",
+    "timestamp": "2026-11-01T10:45:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.44. Cenário sintético LAB-FIM-004.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.44"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-005",
+    "timestamp": "2026-11-01T11:00:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.45. Cenário sintético LAB-FIM-005.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.45"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-006",
+    "timestamp": "2026-11-01T11:15:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.46. Cenário sintético LAB-FIM-006.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.46"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-007",
+    "timestamp": "2026-11-01T11:30:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.47. Cenário sintético LAB-FIM-007.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.47"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-008",
+    "timestamp": "2026-11-01T11:45:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.48. Cenário sintético LAB-FIM-008.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.48"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-009",
+    "timestamp": "2026-11-01T12:00:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.49. Cenário sintético LAB-FIM-009.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.49"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-010",
+    "timestamp": "2026-11-01T12:15:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.50. Cenário sintético LAB-FIM-010.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.50"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-011",
+    "timestamp": "2026-11-01T12:30:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.51. Cenário sintético LAB-FIM-011.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.51"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-012",
+    "timestamp": "2026-11-01T12:45:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.52. Cenário sintético LAB-FIM-012.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.52"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-013",
+    "timestamp": "2026-11-01T13:00:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.53. Cenário sintético LAB-FIM-013.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.53"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-014",
+    "timestamp": "2026-11-01T13:15:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.54. Cenário sintético LAB-FIM-014.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.54"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-015",
+    "timestamp": "2026-11-01T13:30:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.55. Cenário sintético LAB-FIM-015.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.55"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-016",
+    "timestamp": "2026-11-01T13:45:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.56. Cenário sintético LAB-FIM-016.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.56"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-017",
+    "timestamp": "2026-11-01T14:00:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.57. Cenário sintético LAB-FIM-017.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.57"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-018",
+    "timestamp": "2026-11-01T14:15:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.58. Cenário sintético LAB-FIM-018.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.58"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-019",
+    "timestamp": "2026-11-01T14:30:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.59. Cenário sintético LAB-FIM-019.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.59"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-FIM-020",
+    "timestamp": "2026-11-01T14:45:00Z",
+    "rule": {
+      "id": "100003",
+      "level": 7,
+      "description": "Integridade de arquivo: /etc/ssh/sshd_config foi modificado. Origem 192.0.2.60. Cenário sintético LAB-FIM-020.",
+      "groups": [
+        "lab",
+        "fim"
+      ]
+    },
+    "agent": {
+      "id": "3",
+      "name": "lab-host-03"
+    },
+    "data": {
+      "srcip": "192.0.2.60"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-001",
+    "timestamp": "2026-11-01T15:00:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.61. Cenário sintético LAB-MALWARE-001.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.61"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-002",
+    "timestamp": "2026-11-01T15:15:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.62. Cenário sintético LAB-MALWARE-002.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.62"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-003",
+    "timestamp": "2026-11-01T15:30:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.63. Cenário sintético LAB-MALWARE-003.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.63"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-004",
+    "timestamp": "2026-11-01T15:45:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.64. Cenário sintético LAB-MALWARE-004.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.64"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-005",
+    "timestamp": "2026-11-01T16:00:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.65. Cenário sintético LAB-MALWARE-005.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.65"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-006",
+    "timestamp": "2026-11-01T16:15:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.66. Cenário sintético LAB-MALWARE-006.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.66"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-007",
+    "timestamp": "2026-11-01T16:30:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.67. Cenário sintético LAB-MALWARE-007.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.67"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-008",
+    "timestamp": "2026-11-01T16:45:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.68. Cenário sintético LAB-MALWARE-008.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.68"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-009",
+    "timestamp": "2026-11-01T17:00:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.69. Cenário sintético LAB-MALWARE-009.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.69"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-010",
+    "timestamp": "2026-11-01T17:15:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.70. Cenário sintético LAB-MALWARE-010.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.70"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-011",
+    "timestamp": "2026-11-01T17:30:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.71. Cenário sintético LAB-MALWARE-011.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.71"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-012",
+    "timestamp": "2026-11-01T17:45:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.72. Cenário sintético LAB-MALWARE-012.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.72"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-013",
+    "timestamp": "2026-11-01T18:00:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.73. Cenário sintético LAB-MALWARE-013.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.73"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-014",
+    "timestamp": "2026-11-01T18:15:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.74. Cenário sintético LAB-MALWARE-014.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.74"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-015",
+    "timestamp": "2026-11-01T18:30:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.75. Cenário sintético LAB-MALWARE-015.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.75"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-016",
+    "timestamp": "2026-11-01T18:45:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.76. Cenário sintético LAB-MALWARE-016.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.76"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-017",
+    "timestamp": "2026-11-01T19:00:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.77. Cenário sintético LAB-MALWARE-017.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.77"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-018",
+    "timestamp": "2026-11-01T19:15:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.78. Cenário sintético LAB-MALWARE-018.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.78"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-019",
+    "timestamp": "2026-11-01T19:30:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.79. Cenário sintético LAB-MALWARE-019.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.79"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-MALWARE-020",
+    "timestamp": "2026-11-01T19:45:00Z",
+    "rule": {
+      "id": "100004",
+      "level": 12,
+      "description": "Antivírus detectou arquivo EICAR de teste em C:/Lab/eicar.txt; quarentena. Origem 192.0.2.80. Cenário sintético LAB-MALWARE-020.",
+      "groups": [
+        "lab",
+        "malware"
+      ]
+    },
+    "agent": {
+      "id": "4",
+      "name": "lab-host-04"
+    },
+    "data": {
+      "srcip": "192.0.2.80"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-001",
+    "timestamp": "2026-11-01T20:00:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.81. Cenário sintético LAB-SCAN-001.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.81"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-002",
+    "timestamp": "2026-11-01T20:15:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.82. Cenário sintético LAB-SCAN-002.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.82"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-003",
+    "timestamp": "2026-11-01T20:30:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.83. Cenário sintético LAB-SCAN-003.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.83"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-004",
+    "timestamp": "2026-11-01T20:45:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.84. Cenário sintético LAB-SCAN-004.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.84"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-005",
+    "timestamp": "2026-11-01T21:00:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.85. Cenário sintético LAB-SCAN-005.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.85"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-006",
+    "timestamp": "2026-11-01T21:15:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.86. Cenário sintético LAB-SCAN-006.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.86"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-007",
+    "timestamp": "2026-11-01T21:30:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.87. Cenário sintético LAB-SCAN-007.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.87"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-008",
+    "timestamp": "2026-11-01T21:45:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.88. Cenário sintético LAB-SCAN-008.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.88"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-009",
+    "timestamp": "2026-11-01T22:00:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.89. Cenário sintético LAB-SCAN-009.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.89"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-010",
+    "timestamp": "2026-11-01T22:15:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.90. Cenário sintético LAB-SCAN-010.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.90"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-011",
+    "timestamp": "2026-11-01T22:30:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.91. Cenário sintético LAB-SCAN-011.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.91"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-012",
+    "timestamp": "2026-11-01T22:45:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.92. Cenário sintético LAB-SCAN-012.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.92"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-013",
+    "timestamp": "2026-11-01T23:00:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.93. Cenário sintético LAB-SCAN-013.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.93"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-014",
+    "timestamp": "2026-11-01T23:15:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.94. Cenário sintético LAB-SCAN-014.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.94"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-015",
+    "timestamp": "2026-11-01T23:30:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.95. Cenário sintético LAB-SCAN-015.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.95"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-016",
+    "timestamp": "2026-11-01T23:45:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.96. Cenário sintético LAB-SCAN-016.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.96"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-017",
+    "timestamp": "2026-11-02T00:00:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.97. Cenário sintético LAB-SCAN-017.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.97"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-018",
+    "timestamp": "2026-11-02T00:15:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.98. Cenário sintético LAB-SCAN-018.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.98"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-019",
+    "timestamp": "2026-11-02T00:30:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.99. Cenário sintético LAB-SCAN-019.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.99"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-SCAN-020",
+    "timestamp": "2026-11-02T00:45:00Z",
+    "rule": {
+      "id": "100005",
+      "level": 10,
+      "description": "Firewall bloqueou varredura de portas TCP 22, 80 e 443. Origem 192.0.2.100. Cenário sintético LAB-SCAN-020.",
+      "groups": [
+        "lab",
+        "scan"
+      ]
+    },
+    "agent": {
+      "id": "5",
+      "name": "lab-host-05"
+    },
+    "data": {
+      "srcip": "192.0.2.100"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-001",
+    "timestamp": "2026-11-02T01:00:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.101. Cenário sintético LAB-ACCOUNT-001.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.101"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-002",
+    "timestamp": "2026-11-02T01:15:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.102. Cenário sintético LAB-ACCOUNT-002.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.102"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-003",
+    "timestamp": "2026-11-02T01:30:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.103. Cenário sintético LAB-ACCOUNT-003.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.103"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-004",
+    "timestamp": "2026-11-02T01:45:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.104. Cenário sintético LAB-ACCOUNT-004.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.104"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-005",
+    "timestamp": "2026-11-02T02:00:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.105. Cenário sintético LAB-ACCOUNT-005.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.105"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-006",
+    "timestamp": "2026-11-02T02:15:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.106. Cenário sintético LAB-ACCOUNT-006.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.106"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-007",
+    "timestamp": "2026-11-02T02:30:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.107. Cenário sintético LAB-ACCOUNT-007.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.107"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-008",
+    "timestamp": "2026-11-02T02:45:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.108. Cenário sintético LAB-ACCOUNT-008.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.108"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-009",
+    "timestamp": "2026-11-02T03:00:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.109. Cenário sintético LAB-ACCOUNT-009.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.109"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-010",
+    "timestamp": "2026-11-02T03:15:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.110. Cenário sintético LAB-ACCOUNT-010.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.110"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-011",
+    "timestamp": "2026-11-02T03:30:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.111. Cenário sintético LAB-ACCOUNT-011.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.111"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-012",
+    "timestamp": "2026-11-02T03:45:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.112. Cenário sintético LAB-ACCOUNT-012.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.112"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-013",
+    "timestamp": "2026-11-02T04:00:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.113. Cenário sintético LAB-ACCOUNT-013.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.113"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-014",
+    "timestamp": "2026-11-02T04:15:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.114. Cenário sintético LAB-ACCOUNT-014.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.114"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-015",
+    "timestamp": "2026-11-02T04:30:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.115. Cenário sintético LAB-ACCOUNT-015.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.115"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-016",
+    "timestamp": "2026-11-02T04:45:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.116. Cenário sintético LAB-ACCOUNT-016.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.116"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-017",
+    "timestamp": "2026-11-02T05:00:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.117. Cenário sintético LAB-ACCOUNT-017.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.117"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-018",
+    "timestamp": "2026-11-02T05:15:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.118. Cenário sintético LAB-ACCOUNT-018.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.118"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-019",
+    "timestamp": "2026-11-02T05:30:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.119. Cenário sintético LAB-ACCOUNT-019.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.119"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "LAB-ACCOUNT-020",
+    "timestamp": "2026-11-02T05:45:00Z",
+    "rule": {
+      "id": "100006",
+      "level": 6,
+      "description": "Conta de laboratório backup_svc criada no host Windows. Origem 192.0.2.120. Cenário sintético LAB-ACCOUNT-020.",
+      "groups": [
+        "lab",
+        "account"
+      ]
+    },
+    "agent": {
+      "id": "6",
+      "name": "lab-host-06"
+    },
+    "data": {
+      "srcip": "192.0.2.120"
+    },
+    "synthetic": true
+  }
+]
